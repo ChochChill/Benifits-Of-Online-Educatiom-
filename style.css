@@ -1,0 +1,87 @@
+*{font-family: Roboto;
+
+}
+header{
+	background-color: DarkOliveGreen;
+	padding: 3px;
+}
+body{
+	margin: 0px;
+}
+.Content{
+	background-color: floralwhite;
+}
+
+.MainHeading{
+	text-align: center;
+	background-color: DarkSeaGreen ;
+	padding: 30px;
+	margin: 0px;
+}
+
+.Hborder{
+	border: 2px solid Black;
+	margin-top: 0px;
+}
+
+p{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.subList{
+	font-size: 20px
+}
+
+.subHeading{
+	font-size: 30px;
+	text-decoration-line: underline;
+  	text-decoration-style: double;
+}
+
+.introduction{
+	font-size: 20px;
+}
+
+.subContent{
+	text-align: justify;
+}
+
+.column {
+  float: left;
+  width: 40%;  
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#leftImageTop{
+	margin-left: 75px
+}
+
+#rightImageTop{
+	margin-left: 75px
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline;
+	margin : 100px;
+}
+li a{
+	color: white;
+	text-decoration: none;
+}
+li a:hover{
+	color: red;
+}
+footer{
+	text-align: center;
+	background-color: DarkOliveGreen;
+	color: white;
+	padding: 2px
+}
